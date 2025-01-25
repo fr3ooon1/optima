@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include optima *.css
+recursive-include optima *.csv
+recursive-include optima *.html
+recursive-include optima *.ico
+recursive-include optima *.js
+recursive-include optima *.json
+recursive-include optima *.md
+recursive-include optima *.png
+recursive-include optima *.py
+recursive-include optima *.svg
+recursive-include optima *.txt
+recursive-exclude optima *.pyc

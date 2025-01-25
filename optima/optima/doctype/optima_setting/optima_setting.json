@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-22 18:41:43.607047",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "disable_merage_in_gl_entry",
+  "enable_posting_date_per_row"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "disable_merage_in_gl_entry",
+   "fieldtype": "Check",
+   "label": "Disable Merage In Gl Entry"
+  },
+  {
+   "default": "0",
+   "description": "In Journal Entry",
+   "fieldname": "enable_posting_date_per_row",
+   "fieldtype": "Check",
+   "label": "Enable Posting Date Per Row"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-07-11 09:05:40.120091",
+ "modified_by": "Administrator",
+ "module": "Optima",
+ "name": "Optima Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
