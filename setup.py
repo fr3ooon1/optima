@@ -1,19 +1,19 @@
-# from setuptools import setup, find_packages
+from setuptools import setup, find_packages
 
-# with open("requirements.txt") as f:
-# 	install_requires = f.read().strip().split("\n")
+with open("requirements.txt") as f:
+	install_requires = f.read().strip().split("\n")
 
-# # get version from __version__ variable in optima/__init__.py
-# from optima import __version__ as version
+# get version from __version__ variable in optima/__init__.py
+from optima import __version__ as version
 
-# setup(
-# 	name="optima",
-# 	version=version,
-# 	description="ERPNext OPtimizations",
-# 	author="IT Systematic",
-# 	author_email="Sales@itsystematic.com",
-# 	packages=find_packages(),
-# 	zip_safe=False,
-# 	include_package_data=True,
-# 	install_requires=install_requires
-# )
+setup(
+	name="optima",
+	version=version,
+	description="ERPNext OPtimizations",
+	author="IT Systematic",
+	author_email="Sales@itsystematic.com",
+	packages=find_packages(),
+	zip_safe=False,
+	include_package_data=True,
+	install_requires=install_requires
+)
